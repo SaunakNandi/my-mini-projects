@@ -9,6 +9,7 @@ listItems.forEach((item,i)=>{
         item.classList.add('active')
         contents[i].classList.add('show')
     })
+    console.log(listItems)
 })
 
 function hideContent()
